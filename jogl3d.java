@@ -62,6 +62,7 @@ public class jogl3d implements GLEventListener, KeyListener, MouseListener, Mous
         gl.glRotatef(rotY, 0, 1, 0);
         gl.glRotatef(rotX, 1, 0, 0);
 
+        //implementation example
         gl.glPushMatrix();
         gl.glTranslatef(.5f, 0f, 0f);
         drawBarnObject(gl);
